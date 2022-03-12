@@ -1,400 +1,393 @@
 @charset "UTF-8";
-@media(min-width:1200px){
-    header{
-        background-image: url("../img/home-background.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: max-content;    
-    }
-    main{
-        background-image: url("../img/home-background.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: max-content; 
-        background-position-y: -71px; 
-    }
-    .curso--destaque{
-        order: -1;
-        grid-area: 1/1/span 2/2;
-    }
-    .curso--destaque2{
-        order: -1;
-        grid-area: 1/4/span 2/5;
-    }
-    ul.cursos__lista{
-        display: grid;
-        grid-template-columns: repeat(6 , 1fr);
-        grid-template-rows: repeat(2, 9rem);
-        gap: 1rem;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-        padding-bottom: 150px;
-    }
-    div.titulo__cursos{
-        width: max-content;
-        padding-top: 20px;   
-        margin-left: 100px;
-        user-select: none;
-    }
-    div.titulo__cursos h1{
-        font-size: 3em;
-        color: white;
-        user-select: none;
-    }
-    div.titulo__cursos span{
-        color: red;
-        user-select: none;
-    }
-    div.titulo__cursos p{
-        color: white;
-        font-size: 1.5em;
-    }
-    ul.cursos__lista li{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border: 2px palegreen solid;
-    }
-    .cursos__lista .curso--destaque {
-        padding-top: 15rem;
-        background-image: url("../img/icones-bateria.svg");
-    }
-    .cursos__lista .curso--destaque2{
-        padding-top: 15rem;
-        background-image: url("../img/icones-canto.svg");
-    }
-    .cursos__lista li{
-        padding-top: 4.5rem;
-        border-radius: 5px;
-    }
-    .cursos__lista li p {
-        color: white;
-        user-select: none;
-    }
+@media (min-width: 1200px) {
+  header {
+    background-image: url("./../img/home-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: max-content;
+  }
+  main {
+    background-image: url("./../img/home-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: max-content;
+    background-position-y: -71px;
+  }
+  .curso--destaque {
+    order: -1;
+    grid-area: 1/1 / span 2/2;
+  }
+  .curso--destaque2 {
+    order: -1;
+    grid-area: 1/4 / span 2/5;
+  }
+  ul.cursos__lista {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 9rem);
+    gap: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 150px;
+  }
+  div.titulo__cursos {
+    width: max-content;
+    padding-top: 20px;
+    margin-left: 100px;
+    user-select: none;
+  }
+  div.titulo__cursos h1 {
+    font-size: 3em;
+    color: white;
+    user-select: none;
+  }
+  div.titulo__cursos span {
+    color: red;
+    user-select: none;
+  }
+  div.titulo__cursos p {
+    color: white;
+    font-size: 1.5em;
+  }
+  ul.cursos__lista li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px palegreen solid;
+  }
+  .cursos__lista .curso--destaque {
+    padding-top: 15rem;
+    background-image: url("./../img/icones-bateria.svg");
+  }
+  .cursos__lista .curso--destaque2 {
+    padding-top: 15rem;
+    background-image: url("./../img/icones-canto.svg");
+  }
+  .cursos__lista li {
+    padding-top: 4.5rem;
+    border-radius: 5px;
+  }
+  .cursos__lista li p {
+    color: white;
+    user-select: none;
+  }
 
-    .curso--destaque{
-        
-        background-repeat: no-repeat;
-        background-position: center ;
-        background-size: 80%;
-    }
-    .curso--destaque2{
-        
-        background-repeat: no-repeat;
-        background-position: center ;
-        background-size: 60%;
-    }
-    ul.cursos__lista li:hover{
-            background-color: skyblue;
-            transform: translateY(10px);
-            transition-duration: .75s;
-            transition: 0.25s;
-        }
+  .curso--destaque {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+  }
+  .curso--destaque2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+  }
+  ul.cursos__lista li:hover {
+    background-color: skyblue;
+    transform: translateY(10px);
+    transition-duration: 0.75s;
+    transition: 0.25s;
+  }
 }
 
+.curso--tecladopiano {
+  background-image: url("./../img/icone-teclado-piano.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.curso--violaoguitarra {
+  background-image: url("./../img/icones-violao-guitarra.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.curso--baixo {
+  background-image: url("./../img/icones-baixo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.curso--percussao {
+  background-image: url("./../img/icones-percussao.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-.curso--tecladopiano{
-    background-image: url("../img/icone-teclado-piano.svg");
-    background-repeat: no-repeat;
-    background-position: center ;
+.curso--audio {
+  background-image: url("./../img/icones-audio.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.curso--violaoguitarra{
-    background-image: url("../img/icones-violao-guitarra.svg");
-    background-repeat: no-repeat;
-    background-position: center ;
+.curso--teoria {
+  background-image: url("./../img/icones-teoria.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.curso--baixo{
-    background-image: url("../img/icones-baixo.svg");
-    background-repeat: no-repeat;
-    background-position: center ;
+.curso--sopro {
+  background-image: url("./../img/icones-sopro.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.curso--percussao{
-    background-image: url("../img/icones-percussao.svg");
-    background-repeat: no-repeat;
-    background-position: center ;
+.curso--cordas {
+  background-image: url("./../img/icone-cordas.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
+@media (max-width: 1199px) and (min-width: 641px) {
+  header {
+    background-image: url("./../img/home-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: max-content;
+  }
+  main {
+    background-image: url("./../img/home-background.png");
+    background-size: 100%;
+    background-repeat: initial;
+    background-repeat: no-repeat;
+    height: max-content;
+    background-position-y: -71px;
+  }
+  .curso--tecladopiano {
+    background-image: url("./../img/icone-teclado-piano.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10px;
+  }
+  .curso--violaoguitarra {
+    background-image: url("./../img/icones-violao-guitarra.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--baixo {
+    background-image: url("./../img/icones-baixo.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--percussao {
+    background-image: url("./../img/icones-percussao.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
 
-.curso--audio{
-    background-image: url("../img/icones-audio.svg");
+  .curso--audio {
+    background-image: url("./../img/icones-audio.svg");
     background-repeat: no-repeat;
-    background-position: center ;
-}
-.curso--teoria{
-    background-image: url("../img/icones-teoria.svg");
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--teoria {
+    background-image: url("./../img/icones-teoria.svg");
     background-repeat: no-repeat;
-    background-position: center ;
-}
-.curso--sopro{
-    background-image: url("../img/icones-sopro.svg");
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--sopro {
+    background-image: url("./../img/icones-sopro.svg");
     background-repeat: no-repeat;
-    background-position: center ;
-}
-.curso--cordas{
-    background-image: url("../img/icone-cordas.svg");
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--cordas {
+    background-image: url("./../img/icone-cordas.svg");
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--destaque {
+    order: -1;
+    grid-area: 1/1 / span 3/4;
+  }
+  ul.cursos__lista {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 6rem);
+    gap: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  div.titulo__cursos {
+    width: max-content;
+    margin-left: 100px;
+    user-select: none;
+  }
+  div.titulo__cursos h1 {
+    font-size: 2em;
+    color: white;
+    user-select: none;
+  }
+  div.titulo__cursos span {
+    color: red;
+    user-select: none;
+  }
+  div.titulo__cursos p {
+    color: white;
+    font-size: 1em;
+  }
+
+  ul.cursos__lista li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px palegreen solid;
+  }
+  .cursos__lista .curso--destaque {
+    padding-top: 10rem;
+  }
+  .cursos__lista li {
+    padding-top: 3.5rem;
+    border-radius: 5px;
+  }
+  .cursos__lista li p {
+    color: white;
+  }
+
+  .curso--destaque {
+    background-image: url("./../img/icones-bateria.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+  }
+  .curso--destaque2 {
+    background-image: url("./../img/icones-canto.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  ul.cursos__lista li:hover {
+    background-color: skyblue;
+    transform: translateY(10px);
+    transition-duration: 0.75s;
+    transition: 0.25s;
+  }
 }
-@media(max-width:1199px) and (min-width:641px ){
-    header{
-        background-image: url("../img/home-background.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: max-content;    
-    }
-    main{
-        background-image: url("../img/home-background.png");
-        background-size: 100%;
-        background-repeat: initial;
-        background-repeat: no-repeat ;
-        height: max-content; 
-        background-position-y: -71px; 
-    }
-    .curso--tecladopiano{
-        background-image: url("../img/icone-teclado-piano.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 10px;
-    }
-    .curso--violaoguitarra{
-        background-image: url("../img/icones-violao-guitarra.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--baixo{
-        background-image: url("../img/icones-baixo.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--percussao{
-        background-image: url("../img/icones-percussao.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    
-    .curso--audio{
-        background-image: url("../img/icones-audio.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--teoria{
-        background-image: url("../img/icones-teoria.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--sopro{
-        background-image: url("../img/icones-sopro.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--cordas{
-        background-image: url("../img/icone-cordas.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--destaque{
-        order: -1;
-        grid-area: 1/1/span 3/4;
-    }
-    ul.cursos__lista{
-        display: grid;
-        grid-template-columns: repeat(6 , 1fr);
-        grid-template-rows: repeat(3, 6rem);
-        gap: 1rem;
-        text-align: center;
-        width: 80%;
-        margin: auto;      
-    }
-    div.titulo__cursos{
-        width: max-content; 
-        margin-left: 100px;
-        user-select: none;
-    }
-    div.titulo__cursos h1{
-        font-size: 2em;
-        color: white;
-        user-select: none;
-    }
-    div.titulo__cursos span{
-        color: red;
-        user-select: none;
-    }
-    div.titulo__cursos p{
-        color: white;
-        font-size: 1em;
-    }
+@media (max-width: 640px) {
+  header {
+    background-image: url("./../img/home-background-mobile.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: max-content;
+  }
+  main {
+    background-image: url("./../img/home-background-mobile.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: max-content;
+    padding-bottom: 20px;
+  }
+  .curso--tecladopiano {
+    background-image: url("./../img/icone-teclado-piano.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10px;
+  }
+  .curso--violaoguitarra {
+    background-image: url("./../img/icones-violao-guitarra.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--baixo {
+    background-image: url("./../img/icones-baixo.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--percussao {
+    background-image: url("./../img/icones-percussao.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
 
-    ul.cursos__lista li{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border: 2px palegreen solid;
-        
-        
-    }
-    .cursos__lista .curso--destaque {
-        padding-top:10rem;
-    }
-    .cursos__lista li{
-        padding-top: 3.5rem;
-        border-radius: 5px;
-    }
-    .cursos__lista li p {
-        color: white;
-    }
+  .curso--audio {
+    background-image: url("./../img/icones-audio.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--teoria {
+    background-image: url("./../img/icones-teoria.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--sopro {
+    background-image: url("./../img/icones-sopro.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--cordas {
+    background-image: url("./../img/icone-cordas.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  ul.cursos__lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 6rem);
+    gap: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  div.titulo__cursos {
+    margin-left: 10px;
+    padding-top: 10px;
+    user-select: none;
+  }
+  div.titulo__cursos h1 {
+    font-size: 1.5em;
+    color: white;
+    user-select: none;
+  }
+  div.titulo__cursos span {
+    color: red;
+    user-select: none;
+  }
+  div.titulo__cursos p {
+    color: white;
+    font-size: 1em;
+    word-wrap: break-word;
+  }
 
-    .curso--destaque{
-        background-image: url("../img/icones-bateria.svg");
-        background-repeat: no-repeat;
-        background-position: center ;
-        background-size: 30%;
-    }
-    .curso--destaque2{
-        background-image: url("../img/icones-canto.svg");
-        background-repeat: no-repeat;
-        background-position: center ;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    ul.cursos__lista li:hover{
-            background-color: skyblue;
-            transform: translateY(10px);
-            transition-duration: .75s;
-            transition: 0.25s;
-        }
-}
-@media (max-width:640px){
-    header{
-        background-image: url("../img/home-background-mobile.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: max-content;    
-    }
-    main{
-        background-image: url("../img/home-background-mobile.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: max-content;
-        padding-bottom: 20px;  
-    }
-    .curso--tecladopiano{
-        background-image: url("../img/icone-teclado-piano.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 10px;
-    }
-    .curso--violaoguitarra{
-        background-image: url("../img/icones-violao-guitarra.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--baixo{
-        background-image: url("../img/icones-baixo.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--percussao{
-        background-image: url("../img/icones-percussao.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    
-    .curso--audio{
-        background-image: url("../img/icones-audio.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--teoria{
-        background-image: url("../img/icones-teoria.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--sopro{
-        background-image: url("../img/icones-sopro.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    .curso--cordas{
-        background-image: url("../img/icone-cordas.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    ul.cursos__lista{
-        display: grid;
-        grid-template-columns: repeat(2 , 1fr);
-        grid-template-rows: repeat(5, 6rem);
-        gap: 1rem;
-        text-align: center;
-        width: 80%;
-        margin: auto;      
-    }
-    div.titulo__cursos{
-        margin-left: 10px;
-        padding-top: 10px;
-        user-select: none;
-    }
-    div.titulo__cursos h1{
-        font-size: 1.5em;
-        color: white;
-        user-select: none;
-    }
-    div.titulo__cursos span{
-        color: red;
-        user-select: none;
-    }
-    div.titulo__cursos p{
-        color: white;
-        font-size: 1em;
-        word-wrap: break-word;
-    }
+  ul.cursos__lista li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px palegreen solid;
+  }
+  .cursos__lista li {
+    padding-top: 3.5rem;
+    border-radius: 5px;
+  }
+  .cursos__lista li p {
+    color: white;
+  }
 
-    ul.cursos__lista li{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border: 2px palegreen solid;
-        
-    }
-    .cursos__lista li{
-        padding-top: 3.5rem;
-        border-radius: 5px;
-    }
-    .cursos__lista li p {
-        color: white;
-    }
-
-    .curso--destaque{
-        background-image: url("../img/icones-bateria.svg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 5px;     
-    }
-    .curso--destaque2{
-        background-image: url("../img/icones-canto.svg");
-        background-repeat: no-repeat;
-        background-position: center ;
-        background-position-x: center;
-        background-position-y: 5px;
-    }
-    ul.cursos__lista li:hover{
-        background-color: skyblue;
-        transform: translateY(10px);
-        transition-duration: .75s;
-        transition: 0.25s;
-    }
-    
+  .curso--destaque {
+    background-image: url("./../img/icones-bateria.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  .curso--destaque2 {
+    background-image: url("./../img/icones-canto.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 5px;
+  }
+  ul.cursos__lista li:hover {
+    background-color: skyblue;
+    transform: translateY(10px);
+    transition-duration: 0.75s;
+    transition: 0.25s;
+  }
 }

@@ -78,7 +78,7 @@
         user-select: none;
     }
     section.chamada div.bloco2{
-        background-image: url("../img/icone-apple-logo.svg");
+        background-image: url("./../img/icone-apple-logo.svg");
         background-repeat: no-repeat;
         background-position-x: 2px ;
         background-position-y: 5px;
