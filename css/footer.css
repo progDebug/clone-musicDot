@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+footer#rodape {
+    text-align: center;
+}
+@media (min-width:640px){
+    footer#rodape{
+        display: none;
+    }
+}
+footer h1{
+    font-size: 2em;
+    color:  #274c6e;
+    margin-bottom: 0.3em;
+}
+footer#rodape #logo{
+    margin-bottom: 1em;
+    
+}
+footer#rodape .blocos{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+footer#rodape #icones{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+@media (min-width:641px){
+    footer#rodape{
+        display: flex;
+        flex-wrap: wrap;
+    /*Coloca o conteúdo em coluna e não permite a quebra de linha.*/
+        justify-content: space-between;
+    /*Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.*/ 
+    }
+    .blocos{
+        display: inline-block;
+        width: 49%;
+    }
+}
+@media (min-width:1200px){
+    footer#rodape{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 0px;
+    }
+    .blocos{
+        display:inline-block;
+        width: 24%;       
+    }
+    footer p , h1{
+        text-align: left;
+    }
+}

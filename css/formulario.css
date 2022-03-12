@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+footer form{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: auto;
+}
+footer input#email{
+    padding: 10px;
+    flex-grow: 1;
+    border: 1px red solid;
+    border-radius: 7px 0px 0px 7px ;
+}
+footer button#enviar{
+    border: none;
+    flex-grow: 1;
+    background-color: red;
+    border-radius: 0px 7px 7px 0px ;
+}

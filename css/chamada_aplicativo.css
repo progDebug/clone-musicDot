@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@media(min-width:780px){
+    section.chamada {
+        background-color: rgb(247, 97, 72);
+        text-align: center; 
+        padding: 150px;
+        background-image: url("../_img/mockup-app.png");
+        background-repeat: no-repeat;
+        background-position: 30% center;
+        background-size: 233px;     
+    }
+    section.chamada div.cont{
+        width: 50%;
+        align-content: center;
+        position: relative;
+        left: 50%;
+    }
+    section.chamada div.bloco{
+        background-color: white ;
+        color: rgb(247, 97, 72);
+        border-radius: 5px;
+        padding: 15px 5px 15px 40px;
+        margin: 10px ;
+    }
+    section.chamada div.bloco1{
+        background-image: url("../_img/icone-android-logo.svg");
+        background-repeat: no-repeat;
+        background-position-x: 2px ;
+        background-position-y: 5px;
+        user-select: none;
+    }
+    section.chamada div.bloco2{
+        background-image: url("../_img/icone-apple-logo.svg");
+        background-repeat: no-repeat;
+        background-position-x: 2px ;
+        background-position-y: 5px;
+        user-select: none;
+    }
+    section.chamada div.icon{
+        display: flex;
+        margin: auto;
+        width: max-content;
+    }
+    section.chamada div.textos{
+        word-wrap: break-word;
+        color: white ;
+        user-select: none;
+    }
+    section.chamada div.textos h1{
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+@media(max-width:779px){
+    section.chamada {
+        background-color: rgb(247, 97, 72);
+        text-align: center; 
+    }
+    section.chamada div.cont{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+    section.chamada div.bloco{
+        background-color: white ;
+        color: rgb(247, 97, 72);
+        border-radius: 5px;
+        padding: 15px 5px 15px 40px;
+        margin: 10px 50px 10px 50px ;
+    }
+    section.chamada div.bloco1{
+        background-image: url("../_img/icone-android-logo.svg");
+        background-repeat: no-repeat;
+        background-position-x: 2px ;
+        background-position-y: 5px;
+        user-select: none;
+    }
+    section.chamada div.bloco2{
+        background-image: url("../_img/icone-apple-logo.svg");
+        background-repeat: no-repeat;
+        background-position-x: 2px ;
+        background-position-y: 5px;
+        user-select: none;
+    }
+    section.chamada div.icon{
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+
+    }
+    section.chamada div.textos{
+        word-wrap: break-word;
+        color: white ;
+        user-select: none;
+    }
+    section.chamada div.textos h1{
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+}
+
+

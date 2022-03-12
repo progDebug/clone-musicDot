@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media(min-width:641px){
+    section.beneficios{
+        display: flex;
+        flex-wrap: wrap;
+        color: rgb(36, 62, 86);
+        width: 70%;
+        margin: auto;
+    }
+    section.beneficios div.bloco{
+        width: 50%; 
+        text-align: center;
+    }
+    section.beneficios div.bloco img{
+        height: 60%;
+    }
+}
+@media(max-width:640px){
+    section.beneficios{
+        display: flex;
+        flex-wrap: wrap;
+        color: rgb(36, 62, 86);
+        width: 100%;
+    }
+    section.beneficios div.bloco{
+        width: 70%; 
+        text-align: center;
+        margin: auto;
+    }
+    section.beneficios div.bloco img{
+        height: 30%;
+    }
+}
+h1.titulo__beneficios{
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(36, 62, 86);
+    margin-top: 10px;
+}
+
+
+section.beneficios div.bloco h4{
+    font-weight: bolder;
+}
+section.beneficios div{
+    display: block;
+}

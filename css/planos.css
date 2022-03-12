@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@media(max-width:640px){
+
+    div.div__planos{
+        background-image: url('../_img/planos-background-mobile.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    section.planos{
+        display: flex;
+        padding: 1rem;
+        flex-wrap: wrap;
+        margin: auto;
+        
+    }
+    section.planos div{
+        width: 50%;
+        margin: auto;
+        background-color: rgb(247, 97, 72);
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        padding: 1rem;
+        box-shadow: 1px 1px 20px gainsboro;
+    }
+}
+@media(min-width:641px){
+    div.div__planos{
+    background-image: url('../_img/planos-background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+    section.planos div{
+        background-color: rgb(247, 97, 72);
+        width: max-content;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+        color: white;
+        padding: 1rem;
+        box-shadow: 1px 1px 20px gainsboro;
+    }
+    section.planos{
+        display: flex;
+        padding: 1rem;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: auto;
+        
+    }
+}
+
+div.div__planos p{
+    color: rgb(36, 62, 86);
+    text-align: center;
+    user-select: none;
+    word-break: break-word;
+}
+.titulo__planos{
+    font-size: 1.5em;
+    color: rgb(36, 62, 86);
+    text-align: center;
+    padding-top: 1rem;
+}
+b{
+    font-weight: bolder;
+}
+
+section.planos div h4.button{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(204, 2, 2);
+    padding: 0.5rem;
+    user-select: none;
+}
+section.planos div h4.button:hover{
+    box-shadow: 2px 2px 5px rgb(32, 26, 26);
+
+}
+section.planos div h4.button:active{
+    box-shadow: none;
+}
+section.planos div.primeiro__bloco h4.button{
+    margin-top: 5px;
+}
+.preco{
+    margin-top: 0.5rem;
+}
+section.planos div span{
+    font-size: 1.5em ;
+}
+section.planos div.segundo__bloco{
+    margin-top: 1rem;
+}
