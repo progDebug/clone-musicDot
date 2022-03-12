@@ -5,7 +5,7 @@
         background-color: rgb(247, 97, 72);
         text-align: center; 
         padding: 150px;
-        background-image: url("../_img/mockup-app.png");
+        background-image: url("../img/mockup-app.png");
         background-repeat: no-repeat;
         background-position: 30% center;
         background-size: 233px;     
@@ -24,14 +24,14 @@
         margin: 10px ;
     }
     section.chamada div.bloco1{
-        background-image: url("../_img/icone-android-logo.svg");
+        background-image: url("../img/icone-android-logo.svg");
         background-repeat: no-repeat;
         background-position-x: 2px ;
         background-position-y: 5px;
         user-select: none;
     }
     section.chamada div.bloco2{
-        background-image: url("../_img/icone-apple-logo.svg");
+        background-image: url("../img/icone-apple-logo.svg");
         background-repeat: no-repeat;
         background-position-x: 2px ;
         background-position-y: 5px;
@@ -71,14 +71,14 @@
         margin: 10px 50px 10px 50px ;
     }
     section.chamada div.bloco1{
-        background-image: url("../_img/icone-android-logo.svg");
+        background-image: url("../img/icone-android-logo.svg");
         background-repeat: no-repeat;
         background-position-x: 2px ;
         background-position-y: 5px;
         user-select: none;
     }
     section.chamada div.bloco2{
-        background-image: url("../_img/icone-apple-logo.svg");
+        background-image: url("../img/icone-apple-logo.svg");
         background-repeat: no-repeat;
         background-position-x: 2px ;
         background-position-y: 5px;
